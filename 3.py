@@ -49,7 +49,7 @@ def penalty_method():
         iters += 1
         sheet1.write(iters+2, 0, iters)
         sheet1.write(iters+2, 1, x_c[0])
-        sheet1.write(iters + 2, 2, x_c[0])
+        sheet1.write(iters + 2, 2, x_c[1])
         sheet1.write(iters+2, 3, cons1(x_c))
         sheet1.write(iters+2, 4, cons2(x_c))
         sheet1.write(iters+2, 5, f(x_c))
